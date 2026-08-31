@@ -1,4 +1,4 @@
-#  Titulo - Frontend
+# Plataforma Adaptativa de Rastreio Precoce de Discalculia Através da Gamificação - Frontend
 
 ![Drawio](https://img.shields.io/badge/drawio-%23F08705.svg?style=for-the-badge&logo=diagrams.net&logoColor=white)
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
@@ -11,59 +11,67 @@
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
 # Índice 
-
+- [Descrição](#descrição)
+- [Arquitetura](#arquitetura)
+- [Tecnologias](#tecnologias)
+- [Estrutura do projeto](#estruturadoprojecto)
+- [Pre-Requisitos](#prerequisitos)
+- [Instalação](#instalação)
+- [Execução](#execução)
+- [API Endepoints](#apiendpoints)
+- [Licença](#licença)
+- [Contrubuição](#contribuição)
 
 ## Descrição
-O que faz o app
-Com o que é construido
-Por que?
+Sistema adaptativo com elementos de gamificação para apoiar o rastreio precoce de sinais de discalculia em crianças de 8 anos. O sistema será utilizado por psicologos, professores e alunos. Será disponibilizado na plataforma um conjunto de avaliações que ajudaram na identificação de indícios de discalculia. 
 
-## Arquitetura
+## ⚙️ Arquitetura
 
-## Tecnologias
+
+## 💻 Tecnologias
 ### React
 ### Vite
 ### Javascript 
 ### HTML 
 ### CSS
 
-## Estrutura do projecto
-src/
- components/
 
+## 🗂️ Estrutura do projecto
+```text
+📦 Projecto
+|-----🗂️ src 
+|      |----- 🗂️ Components
+|      |----- 🗂️ C
+|      |----- 🗂️ R
+|      |----- 🗂️ D
+|      |----- 🗂️ S
+|      |----- 🗂️ S 
+|     
+```
 
-## Pré-requisitos
+## 📋 Pré-requisitos
 ### Node.js
 ### npm
 ### Git
 
-## Instalação 
-
-### Instalar dependências
+## 📥 Instalação 
 ```bash
   npm install
 ```
-
-## Configuração
-
-## Execução
+## 🚀 Execução 
 ```bash
   npm run dev
 ```
 
-## Instrução de instalação 
-
-## API Endpoints
+## 🔌 API Endpoints
 ```bash
-Post 
+Post: 
 ```
 
-## Licença 
-### Educacional e não comercial
+## 📜 Licença 
+#### Educacional e não comercial
 
-
-
-## Contribuição
+## 🤝 Contribuição
 
 
 
