@@ -11,9 +11,9 @@
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
 
 # Índice 
-- [Descrição](#descrição)
+- [Descrição](##descrição)
 - [Arquitetura](#arquitetura)
-- [Tecnologias](#tecnologias)
+- [Tecnologias](##Tecnologias)
 - [Estrutura do projeto](#estruturadoprojecto)
 - [Pre-Requisitos](#prerequisitos)
 - [Instalação](#instalação)
@@ -50,9 +50,9 @@ Sistema adaptativo com elementos de gamificação para apoiar o rastreio precoce
 ```
 
 ## 📋 Pré-requisitos
-### Node.js
-### npm
-### Git
+#### Node.js
+#### npm
+#### Git
 
 ## 📥 Instalação 
 ```bash
