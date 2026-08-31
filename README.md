@@ -1,3 +1,76 @@
+#  Titulo - Frontend
+
+![Drawio](https://img.shields.io/badge/drawio-%23F08705.svg?style=for-the-badge&logo=diagrams.net&logoColor=white)
+![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
+![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+![NodeJS](https://img.shields.io/badge/node.js-%236DA55F.svg?style=for-the-badge&logo=node.js&logoColor=white)
+![CSS](https://img.shields.io/badge/css-%23663399.svg?style=for-the-badge&logo=css&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+
+# Índice 
+
+
+## Descrição
+O que faz o app
+Com o que é construido
+Por que?
+
+## Arquitetura
+
+## Tecnologias
+### React
+### Vite
+### Javascript 
+### HTML 
+### CSS
+
+## Estrutura do projecto
+src/
+ components/
+
+
+## Pré-requisitos
+### Node.js
+### npm
+### Git
+
+## Instalação 
+
+### Instalar dependências
+```bash
+  npm install
+```
+
+## Configuração
+
+## Execução
+```bash
+  npm run dev
+```
+
+## Instrução de instalação 
+
+## API Endpoints
+```bash
+Post 
+```
+
+## Licença 
+### Educacional e não comercial
+
+
+
+## Contribuição
+
+
+
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
