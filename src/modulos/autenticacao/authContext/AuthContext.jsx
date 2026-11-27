@@ -5,9 +5,11 @@ const AuthContext = createContext(null);
 
 //O provider disponibiliza a autenticação à aplicação
 export function AuthProvider({children}){
+
     //Estado token
     const [token, setToken] = useState(localStorage.getItem('token'));
-   //Estado perfil
+
+    //Estado perfil
     const[perfil, setPerfil] = useState(localStorage.getItem('perfil'));
 
     //Guardar os valores do token no navegador e do guarda perfil do utilizador

@@ -2,12 +2,12 @@
     padding: 1.2rem;
     text-align: center;
     background-color: var(--color-card);
-    border-top: 1px solid var(--color-secondary-bg);
+    border-top: 2px solid var(--color-primary);
 }
 
 .app-footer p{
     margin: 0;
     color: var(--color-primary);
-    font-size: 0.85rem;
+    font-size: 1rem;
     font-weight: 700;
 }

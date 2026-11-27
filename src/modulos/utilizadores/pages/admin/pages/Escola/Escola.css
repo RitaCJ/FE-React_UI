@@ -1,0 +1,293 @@
+.escolaHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    padding: 1rem 0 2rem;
+    border-bottom: 2px solid #e0e4eb;
+}
+
+.escolaHeader-info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.escola-icon{
+    width: 70px;
+    height: 75px;
+    font-size: 4rem;
+    border-radius: 10px;
+    color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink:0;
+}
+
+.escolaHeader-text h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: 5px;
+}
+
+.escolaHeader-text p{
+    color: var(--color-secondary-text);
+    font-size: 1rem;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.escolaAdicionar-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 25px;
+    background-color: var(--color-primary);
+    color: #FFFFFF;
+    border-radius: 9px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: 0.3s ease;
+    white-space: nowrap;
+    margin-right: 20px;
+}
+
+.escolaAdicionar-btn:hover{
+    opacity: 1;
+    transform: translateY(-2px);
+}
+
+
+/*Cartão*/
+.escola-total-card{
+    height: 100%;
+    min-height: 150px;
+    border: none;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    margin-left: 20px;
+}
+
+.escola-total-card:hover{
+    transform: translateY(-4px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);;
+}
+
+.escola-total-card .card-body{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 30px;
+}
+
+.escola-total-icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+    color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    flex-shrink: 0;
+}
+
+.escola-total-card h3{
+    font-size: 30px;
+    font-width: 700;
+    color: var(--color-secondary-text);
+    margin-bottom: 5px;
+}
+
+.escola-total-card p{
+    font-size: 20px;
+    font-width: 600;
+    color: var(--color-secondary-text);
+    margin-bottom: 0;
+}
+
+.escola-table-card{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    background-color: var(--color-card);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    padding: 15px;
+}
+
+.table-header{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 15px;
+}
+
+.list-icon{
+    width: 40px;
+    height: 50px;
+    border-radius: 10px;
+    color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    flex-shrink: 0;
+}
+
+.table-title h2{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--color-primary);
+    margin-bottom: 6px;
+}
+
+/*==BARRA DE PESQUISA==*/
+.escola-searchBar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 22px;
+}
+
+.escola-search{
+    max-width: 300px;
+    border-radius: 9px;
+    padding: 10px 12px;
+    border: 1px solid var(--color-primary);
+}
+
+.escola-search:focus{
+    border-color: var(--color-primary);
+    box-shadow: 0 0 0 3px rgba(70, 102, 200, 0.1);
+}
+
+.tabela-container{
+    width: 100%;
+    padding: 10px 20px 20px;
+    overflow-x: auto;
+}
+
+.table{
+    width: 100%;
+    min-width: 800px;
+    border-collapse: collapse;
+    white-space: nowrap;
+}
+
+.table thead th{
+    background-color: var(--color-primary);
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 15px;
+    text-align: left;
+    border-bottom: 1px solid #E0E4EB;
+    white-space: nowrap;
+}
+
+.table tbody td{
+    padding: 15px 15px;
+    font-size: 18px;
+    color: var(--color-secondary-text);
+    border-bottom: 1px solid #E0E4EB;
+    vertical-align: middle;
+}
+
+/*.table tbody tr:hover{*/
+/*    background-color: var(--color-primary);*/
+/*}*/
+
+/*.table tbody:hover td{*/
+/*    color: #FFFFFF;*/
+/*}*/
+
+/*.table tbody tr:last-child td{*/
+/*    border-bottom: none;*/
+/*}*/
+
+/*Botões de ação*/
+.table-actions{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    min-width: 250px;
+}
+
+.btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    padding: 7px 12px;
+    border-radius: 7px;
+    gap: 4px;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    white-space: nowrap;
+}
+
+.btn-info{
+    color: #FFFFFF;
+    background-color: #17a2b8;
+}
+
+.btn-primary{
+    color: #FFFFFF;
+    background-color: #007bff;
+}
+
+.btn-danger{
+    color: #FFFFFF;
+    background-color: #dc3545;
+}
+
+.btn-info:hover,
+.btn-primary:hover,
+.btn-danger:hover{
+    color: var(--color-primary);
+}
+
+
+@media(max-width: 576px){
+    .escolaHeader{
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .escolaHeader-text h1{
+        font-size: 1rem;
+    }
+
+    .escolaAdicionar-btn{
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 768px){
+    .escola-table-card{
+        padding: 5px;
+    }
+
+    .tabela-container{
+        padding: 10px;
+    }
+
+    .table-title h2{
+        font-size: 1rem;
+    }
+
+    .escola-searchBar{
+        padding: 12px;
+    }
+
+    .escola-search{
+        max-width: 100%;
+        width: 100%;
+    }
+}

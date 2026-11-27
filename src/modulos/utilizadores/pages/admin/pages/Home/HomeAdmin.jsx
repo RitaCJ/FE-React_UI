@@ -3,8 +3,8 @@ import './HomeAdmin.css';
 import {Link} from "react-router-dom";
 function HomeAdmin() {
     return(
-        <main className={"home-admin"}>
-           <div className={"home-header"}>
+        <main className={"homeAdmin"}>
+           <div className={"homeHeader"}>
                <h1>Bem-vindo(a), Admin</h1>
                <p>Aqui pode gerir e acompanhar suas atividades</p>
            </div>
@@ -19,9 +19,14 @@ function HomeAdmin() {
                     <Col md={6} xl={3}>
                         <Card className={"dashboard-card"}>
                             <Card.Body>
-                                <i className={"bi bi-building dashboard-icon"}></i>
-                                <h3>--</h3>
-                                <p>Escolas</p>
+                                <div className={"dashboard-card-icon"}>
+                                    <i className={"bi bi-building"}></i>
+                                </div>
+
+                                <div className={"dashboard-card-info"}>
+                                    <h3>--</h3>
+                                    <p>Escolas</p>
+                                </div>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -29,9 +34,14 @@ function HomeAdmin() {
                     <Col md={6} xl={3}>
                         <Card className={"dashboard-card"}>
                             <Card.Body>
-                                <i className={"bi bi-person-fill-gear dashboard-icon"}></i>
-                                <h3>--</h3>
-                                <p>Administradores</p>
+                                <div className={"dashboard-card-icon"}>
+                                    <i className={"bi bi-person-fill-gear "}></i>
+                                </div>
+
+                                <div className={"dashboard-card-info"}>
+                                    <h3>--</h3>
+                                    <p>Adminstradores</p>
+                                </div>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -39,9 +49,14 @@ function HomeAdmin() {
                     <Col md={6} xl={3}>
                         <Card className={"dashboard-card"}>
                             <Card.Body>
-                                <i className={"bi bi-clipboard2-check-fill dashboard-icon"}></i>
-                                <h3>--</h3>
-                                <p>Tarefas</p>
+                                <div className={"dashboard-card-icon"}>
+                                    <i className={"bi bi-clipboard2-check-fill"}></i>
+                                </div>
+
+                                <div className={"dashboard-card-info"}>
+                                    <h3>--</h3>
+                                    <p>Tarefas</p>
+                                </div>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -49,9 +64,14 @@ function HomeAdmin() {
                     <Col md={6} xl={3}>
                         <Card className={"dashboard-card"}>
                             <Card.Body>
-                                <i className={"bi bi-book dashboard-icon"}></i>
-                                <h3>--</h3>
-                                <p>Professores</p>
+                                <div className={"dashboard-card-icon"}>
+                                    <i className={"bi bi-book"}></i>
+                                </div>
+
+                                <div className={"dashboard-card-info"}>
+                                    <h3>--</h3>
+                                    <p>Professores</p>
+                                </div>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -59,9 +79,14 @@ function HomeAdmin() {
                     <Col md={6} xl={3}>
                         <Card className={"dashboard-card"}>
                             <Card.Body>
-                                <i className={"bi bi-backpack dashboard-icon"}></i>
-                                <h3>--</h3>
-                                <p>Alunos</p>
+                                <div className={"dashboard-card-icon"}>
+                                    <i className={"bi bi-backpack"}></i>
+                                </div>
+
+                                <div className={"dashboard-card-info"}>
+                                    <h3>--</h3>
+                                    <p>Alunos</p>
+                                </div>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -69,9 +94,14 @@ function HomeAdmin() {
                     <Col md={6} xl={3}>
                         <Card className={"dashboard-card"}>
                             <Card.Body>
-                                <i className={"bi bi-person-hearts dashboard-icon"}></i>
-                                <h3>--</h3>
-                                <p>Psicólogos</p>
+                                <div className={"dashboard-card-icon"}>
+                                    <i className={"bi bi-person-hearts"}></i>
+                                </div>
+
+                                <div className={"dashboard-card-info"}>
+                                    <h3>--</h3>
+                                    <p>Psicólogos</p>
+                                </div>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -79,9 +109,14 @@ function HomeAdmin() {
                     <Col md={6} xl={3}>
                         <Card className={"dashboard-card"}>
                             <Card.Body>
-                                <i className={"bi bi-file-earmark-bar-graph dashboard-icon"}></i>
-                                <h3>--</h3>
-                                <p>Relatórios</p>
+                                <div className={"dashboard-card-icon"}>
+                                    <i className={"bi bi-file-earmark-bar-graph"}></i>
+                                </div>
+
+                                <div className={"dashboard-card-info"}>
+                                    <h3>--</h3>
+                                    <p>Relatórios</p>
+                                </div>
                             </Card.Body>
                         </Card>
                     </Col>
@@ -89,17 +124,22 @@ function HomeAdmin() {
                     <Col md={6} xl={3}>
                         <Card className={"dashboard-card"}>
                             <Card.Body>
-                                <i className={"bi bi-people-fill dashboard-icon"}></i>
-                                <h3>--</h3>
-                                <p>Encarregados</p>
+                                <div className={"dashboard-card-icon"}>
+                                    <i className={"bi bi-people-fill"}></i>
+                                </div>
+
+                                <div className={"dashboard-card-info"}>
+                                    <h3>--</h3>
+                                    <p>Encarregados</p>
+                                </div>
                             </Card.Body>
                         </Card>
                     </Col>
-
                 </Row>
-
+                {/*== Fim da Secção de Dasboards ==*/}
             </section>
 
+            {/*== Inicio da Secção de Quick-access ==*/}
             <section className={"quick-access"}>
                 <div className={"section-title"}>
                     <h2>Acesso rápido</h2>
@@ -125,7 +165,7 @@ function HomeAdmin() {
                     </Col>
 
                     <Col md={6} lg={3}>
-                        <Link to={"/admin/adminstradores"} className={"quick-card-link"}>
+                        <Link to={"/admin/adminstradoresEscola"} className={"quick-card-link"}>
                             <Card className={"quick-card"}>
                                 <Card.Body>
                                     <i className={"bi bi-person-add"}></i>
@@ -150,8 +190,8 @@ function HomeAdmin() {
                         </Link>
                     </Col>
                 </Row>
+                {/*== Fim da Secção de Quick access ==*/}
             </section>
-
         </main>
     )
 }

@@ -1,0 +1,112 @@
+.adminSidebar{
+    background-color: var(--color-primary);
+    width: 300px;
+    min-height: 100vh;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 1.1rem 1rem;
+    border-right: 1px solid var(--color-secondary-bg);
+    box-sizing: border-box;
+}
+
+.navBarLogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.2rem;
+}
+
+.logo{
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+}
+
+.navMenu{
+    display: flex;
+    flex-direction: column;
+    gap: 0.7rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navMenu li a{
+    display: flex;
+    align-items: center;
+    padding: 0.90rem 1rem;
+    color: white;
+    border-radius: 8px;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 20px;
+    transition: all 0.3s ease;
+}
+
+.navMenu li a i{
+    font-size: 1.5rem;
+    min-width: 20px;
+}
+
+.navMenu li a:hover{
+    background-color: var(--color-secondary-text);
+}
+
+.navMenu li a.active{
+    background-color: var(--color-secondary-text);
+    color: black;
+}
+
+/*== TABLETS ==*/
+@media(max-width: 768px){
+    .adminSidebar{
+        width: 200px;
+        min-height: 200px;
+        padding: 1rem 0.5rem;
+    }
+
+    .logo{
+        width: 100px;
+        height: 100px;
+    }
+
+    .navMenu li a{
+        font-size: 16px;
+        padding: 0.9rem;
+    }
+
+
+}
+
+/*== TELEMÓVEIS ==*/
+@media(max-width: 576px){
+    .adminSidebar{
+        width: 76px;
+        min-height: 76px;
+        padding: 1rem 0.5rem;
+    }
+
+    .adminTopBar{
+        padding: 2rem;
+    }
+
+    .navBarLogo{
+        margin-bottom: 2rem;
+    }
+
+    .logo{
+        width: 50px;
+        height: 50px;
+    }
+
+    .navMenu li a{
+        justify-content: center;
+        font-size: 0;
+        padding: 1rem 0.5rem;
+    }
+
+    .navMenu li a i{
+        font-size: 1.5rem;
+    }
+}
