@@ -20,7 +20,7 @@ function Escolas(){
 
                 const res = await fetch('http://localhost:8080/api/escolas', {
                     method: 'GET',
-                    header: {
+                    headers: {
                         'Authorization': `Bearer ${token}`,
                         'Content-Type': 'application/json'
                     }
@@ -112,8 +112,8 @@ function Escolas(){
                                 <tr>
                                     <th>Nome</th>
                                     <th>Endereço</th>
-                                    <th>Email</th>
                                     <th>Telefone</th>
+                                    <th>Email</th>
                                     <th>Ações</th>
                                 </tr>
                             </thead>
@@ -138,11 +138,11 @@ function Escolas(){
                                     </tr>
                                 ) : (
                                     escolas.map((escola) => (
-                                        <tr key={escola.id}>
+                                        <tr key={escola.idEscola}>
                                             <td>{escola.nome}</td>
                                             <td>{escola.endereco}</td>
-                                            <td>{escola.email}</td>
                                             <td>{escola.telefone}</td>
+                                            <td>{escola.email}</td>
 
                                             <td className={"table-actions"}>
                                                 <Link to={""} className={"btn btn-info"}>
