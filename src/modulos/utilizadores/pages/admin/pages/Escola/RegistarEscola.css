@@ -1,10 +1,10 @@
 .container{
-    width: 100%;
     display: flex;
+    width: 100%;
     flex-direction: column;
-    max-width: none;
+    max-width: 100%;
     margin: 0;
-    padding: 19px;
+    padding: 1rem;
     box-sizing: border-box;
 }
 
@@ -13,54 +13,125 @@
     align-items: center;
     justify-content: flex-start;
     width: 100%;
-    margin: 0 0 2rem 0;
-    padding: 1rem 0 2rem;
-    border-bottom: 2px solid #e0e4eb;
+    margin: 0 0 1.5rem;
+    padding: 0.75rem 0 1rem;
+    border-bottom: 1px solid #e0e4eb;
 }
 
 .formHeader-info{
     display: flex;
     align-items: center;
-    gap: 20px;
-    justify-content: flex-start;
-    margin: 0;
+    gap: 0.75rem;
 }
 
 .addEscola-icon{
-    width: 70px;
-    height: 75px;
-    font-size: 4rem;
-    border-radius: 10px;
-    color: var(--color-primary);
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 42px;
+    height: 42px;
+    font-size: 1.8rem;
+    color: var(--color-primary);
     flex-shrink:0;
 }
 
 .formHeader-text h1{
-    font-size: 2.5rem;
-    font-weight: 700;
+    font-size: 1.35rem;
+    font-weight: 670;
     color: var(--color-primary);
-    margin-bottom: 5px;
+    margin: 0;
 }
 
 .formMain{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 0.6rem;
     width: 100%;
-    max-width: 600px;
+    max-width: 490px;
     margin: 0 auto;
-    padding: 20px;
-    background-color: #FFFFFF;
+    padding: 1.25rem;
+    background-color: var(--color-card);
     border-right: 10px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.06);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+    box-sizing: border-box;
 }
 
 .formMain label{
-    font-size: 1.5rem;
-    font-weight: 650;
+    font-size: 0.9rem;
+    font-weight: 610;
     color: var(--color-primary);
-    margin-top: 9px;
+    margin-top: 0.4rem;
+}
+
+.formMain input{
+    width: 100%;
+    padding: 0.55rem 0.75rem;
+    border: 2px solid var(--color-secondary-bg);
+    border-radius: 6px;
+    font-size: 0.9rem;
+    background: var(--color-card);
+    color: var(--color-secondary-text);
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.formMain > div:last-child{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-top: 1rem;
+}
+
+.formMain .btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.55rem 1rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.3s ease;
+}
+
+.btn-save{
+    background-color: var(--color-primary);
+    color: #FFFFFF;
+}
+
+.btn-back{
+    background-color: #6C757D;
+    color: #FFFFFF;
+}
+
+.btn-save:hover,
+.btn-back:hover{
+    opacity: 0.9;
+    transform: translateY(-2px);
+}
+
+@media(max-width: 576px){
+    .container{
+        padding: 0.75rem;
+    }
+
+    .formHeader-text h1{
+        font-size: 1.15rem;
+    }
+
+    .formMain{
+        padding: 1rem;
+    }
+
+    .formMain > div:last-child{
+        flex-direction: column;
+    }
+
+    .formMain .btn{
+        width: 100%;
+    }
 }

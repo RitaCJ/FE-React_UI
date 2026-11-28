@@ -92,7 +92,7 @@ export default function LoginForm() {
     return (
         <Container className={"login-form-container"}>
             <Row className={"justify-content-center"}>
-                <Col md={8} lg={6} xl={5}>
+                <Col md={6} lg={4}>
                     <Card className={"login-card shadow"}>
                         <Card.Body>
                             {/*Icon*/}
@@ -145,8 +145,6 @@ export default function LoginForm() {
                                 <p> Ainda não tem uma conta? </p>
                                 <a href={"/registo"}>Criar uma conta</a>
                             </div>
-
-
                         </Card.Body>
                     </Card>
                 </Col>

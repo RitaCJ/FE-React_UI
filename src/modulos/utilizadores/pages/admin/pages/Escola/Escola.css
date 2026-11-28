@@ -2,39 +2,38 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-bottom: 2rem;
-    padding: 1rem 0 2rem;
-    border-bottom: 2px solid #e0e4eb;
+    margin-bottom: 1.5rem;
+    padding: 0.75rem 0 1rem;
+    border-bottom: 1px solid #e0e4eb;
+    gap: 1rem;
 }
 
 .escolaHeader-info{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 0.85rem;
 }
 
 .escola-icon{
-    width: 70px;
-    height: 75px;
-    font-size: 4rem;
-    border-radius: 10px;
-    color: var(--color-primary);
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 2.3rem;
+    color: var(--color-primary);
     flex-shrink:0;
+    margin-left: 0.23rem;
 }
 
 .escolaHeader-text h1{
-    font-size: 2.5rem;
+    font-size: 1.6rem;
     font-weight: 700;
     color: var(--color-primary);
-    margin-bottom: 5px;
+    margin-bottom: 0.3rem;
 }
 
 .escolaHeader-text p{
     color: var(--color-secondary-text);
-    font-size: 1rem;
+    font-size: 0.85rem;
     margin-bottom: 0;
     font-weight: 500;
 }
@@ -42,8 +41,9 @@
 .escolaAdicionar-btn {
     display: inline-flex;
     align-items: center;
-    gap: 10px;
-    padding: 12px 25px;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0.6rem 1rem;
     background-color: var(--color-primary);
     color: #FFFFFF;
     border-radius: 9px;
@@ -51,7 +51,8 @@
     font-weight: 700;
     transition: 0.3s ease;
     white-space: nowrap;
-    margin-right: 20px;
+    margin-right: 0.25rem;
+    font-size: 0.9rem;
 }
 
 .escolaAdicionar-btn:hover{
@@ -63,51 +64,51 @@
 /*Cartão*/
 .escola-total-card{
     height: 100%;
-    min-height: 150px;
+    width: 100%;
     border: none;
-    border-radius: 12px;
+    border-radius: 10px;
     background-color: #FFFFFF;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
     transition: all 0.3s ease;
-    margin-left: 20px;
+    margin: 0;
 }
 
 .escola-total-card:hover{
     transform: translateY(-4px);
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);;
 }
 
 .escola-total-card .card-body{
     display: flex;
     align-items: center;
-    gap: 20px;
-    padding: 30px;
+    gap: 0.85px;
+    padding: 1rem;
 }
 
 .escola-total-icon{
-    width: 60px;
-    height: 60px;
-    border-radius: 10px;
-    color: var(--color-primary);
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 35px;
+    width: 44px;
+    height: 44px;
+    border-radius: 8px;
+    color: var(--color-primary);
+    font-size: 1.5rem;
     flex-shrink: 0;
 }
 
 .escola-total-card h3{
-    font-size: 30px;
+    font-size: 1rem;
     font-width: 700;
     color: var(--color-secondary-text);
-    margin-bottom: 5px;
+    margin-bottom: 0.25rem;
 }
 
 .escola-total-card p{
-    font-size: 20px;
+    font-size: 0.9rem;
     font-width: 600;
     color: var(--color-secondary-text);
-    margin-bottom: 0;
+    margin: 0;
 }
 
 .escola-table-card{
@@ -115,33 +116,33 @@
     border: none;
     border-radius: 10px;
     background-color: var(--color-card);
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
-    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    padding: 1rem;
 }
 
 .table-header{
     display: flex;
     align-items: center;
-    gap: 15px;
-    margin-bottom: 15px;
+    gap: 0.75rem;
+    margin-bottom: 1rem;
 }
 
 .list-icon{
-    width: 40px;
-    height: 50px;
-    border-radius: 10px;
-    color: var(--color-primary);
     display: flex;
+    width: 36px;
+    height: 36px;
+    color: var(--color-primary);
+    justify-content: center;
     align-items: center;
-    font-size: 30px;
+    font-size: 1.5rem;
     flex-shrink: 0;
 }
 
 .table-title h2{
-    font-size: 1.5rem;
+    margin: 0;
+    font-size: 1.25rem;
     font-weight: 700;
     color: var(--color-primary);
-    margin-bottom: 6px;
 }
 
 /*==BARRA DE PESQUISA==*/
@@ -149,106 +150,93 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 22px;
+    gap: 1rem;
+    padding: 0.75rem 1rem;
 }
 
 .escola-search{
-    max-width: 300px;
+    width: 100%;
+    max-width: 320px;
     border-radius: 9px;
-    padding: 10px 12px;
-    border: 1px solid var(--color-primary);
-}
-
-.escola-search:focus{
-    border-color: var(--color-primary);
-    box-shadow: 0 0 0 3px rgba(70, 102, 200, 0.1);
+    padding: 0.55rem 0.75rem;
+    border: 1px solid var(--color-secondary-bg);
+    background: var(--color-background);
 }
 
 .tabela-container{
     width: 100%;
-    padding: 10px 20px 20px;
+    padding: 0.5rem 1rem 1rem;
     overflow-x: auto;
 }
 
-.table{
+.escola-table-card .table{
     width: 100%;
-    min-width: 800px;
+    min-width: 760px;
     border-collapse: collapse;
     white-space: nowrap;
 }
 
-.table thead th{
+.escola-table-card .table thead th{
     background-color: var(--color-primary);
     color: #FFFFFF;
-    font-size: 20px;
+    font-size: 17px;
     font-weight: 700;
-    padding: 15px;
+    padding: 0.75rem;
     text-align: left;
     border-bottom: 1px solid #E0E4EB;
     white-space: nowrap;
 }
 
-.table tbody td{
-    padding: 15px 15px;
-    font-size: 18px;
+.escola-table-card .table tbody td{
+    padding: 0.65rem 0.75rem;
+    font-size: 0.85rem;
     color: var(--color-secondary-text);
     border-bottom: 1px solid #E0E4EB;
     vertical-align: middle;
 }
 
-/*.table tbody tr:hover{*/
-/*    background-color: var(--color-primary);*/
-/*}*/
-
-/*.table tbody:hover td{*/
-/*    color: #FFFFFF;*/
-/*}*/
-
-/*.table tbody tr:last-child td{*/
-/*    border-bottom: none;*/
-/*}*/
-
 /*Botões de ação*/
 .table-actions{
     display: flex;
     align-items: center;
-    gap: 7px;
-    min-width: 250px;
+    gap: 0.4rem;
+    min-width: 220px;
 }
 
-.btn{
+.table-actions .btn{
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    font-size: 18px;
-    padding: 7px 12px;
+    font-size: 0.85rem;
+    padding: 0.4rem 0.65rem;
     border-radius: 7px;
-    gap: 4px;
+    gap: 0.3rem;
     font-weight: 700;
     text-decoration: none;
     transition: all 0.3s ease;
     white-space: nowrap;
 }
 
-.btn-info{
+.table-actions .btn-info{
     color: #FFFFFF;
     background-color: #17a2b8;
 }
 
-.btn-primary{
+.table-actions .btn-primary{
     color: #FFFFFF;
     background-color: #007bff;
 }
 
-.btn-danger{
+.table-actions .btn-danger{
     color: #FFFFFF;
     background-color: #dc3545;
 }
 
-.btn-info:hover,
-.btn-primary:hover,
-.btn-danger:hover{
+.table-actions .btn-info:hover,
+.table-actions .btn-primary:hover,
+.table-actions .btn-danger:hover{
     color: var(--color-primary);
+    transform: translateY(-1px);
 }
 
 
@@ -256,26 +244,30 @@
     .escolaHeader{
         align-items: flex-start;
         flex-direction: column;
-        gap: 20px;
+        gap: 1rem;
     }
 
     .escolaHeader-text h1{
-        font-size: 1rem;
+        font-size: 1.2rem;
+    }
+
+    .escola-icon{
+        font-size: 1.8rem;
     }
 
     .escolaAdicionar-btn{
         width: 100%;
-        justify-content: center;
+        margin: 0;
     }
 }
 
 @media(max-width: 768px){
     .escola-table-card{
-        padding: 5px;
+        padding: 0.5rem;
     }
 
     .tabela-container{
-        padding: 10px;
+        padding: 0.5rem;
     }
 
     .table-title h2{
@@ -283,11 +275,10 @@
     }
 
     .escola-searchBar{
-        padding: 12px;
+        padding: 0.5rem;
     }
 
     .escola-search{
         max-width: 100%;
-        width: 100%;
     }
 }

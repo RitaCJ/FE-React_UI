@@ -1,8 +1,8 @@
-login-page{
+.login-page{
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem 1rem;
+    padding: 1.5rem;
     background: var(--color-background);
 }

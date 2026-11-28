@@ -79,7 +79,7 @@ function Escolas(){
                             </div>
                             {/*escolas.length*/}
                             <h3>--</h3>
-                            <p>Total de escolas registadas</p>
+                            <p>Escolas registadas</p>
                         </Card.Body>
                     </Card>
                 </Col>
